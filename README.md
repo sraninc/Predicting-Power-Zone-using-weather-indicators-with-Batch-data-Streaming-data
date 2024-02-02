@@ -1,0 +1,1 @@
+# Predicting-Power-Zone-using-weather-indicators-with-Batch-data-Streaming-data
