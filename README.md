@@ -4,6 +4,6 @@ In this project, I worked on a dataset downloaded from UCI machine learning repo
 The project is divided into two parts:
 
 - The first part deals with batch/static data. I used PySpark for the project. I first downloaded the data and read it as a spark SQL data frame. After that, I summarized the data using various numerical summary methods including correlation, means, standard deviation, etc. Then I created a pipeline for a series of transformations(SQL Transformer, Binarizer, OneHotEncoder, PCA Transformer, VectorAssembler). After that I fitted the Elastic Net model with some regularization parameters, the best parameters were chosen using cross-validation. Finally, I estimated the training RMSE on this data.
-- 
-- The second part of the project is based on streaming data. The streaming data was randomly sampled from three rows of the dataset iteratively. This streaming data was then used for model transformation and making predictions as was done for the static data.
+  
+- The second part of the project is based on streaming data. The streaming data was randomly sampled from three rows of the dataset iteratively (Using Produce Data code). This streaming data was then used for model transformation and making predictions as was done for the static data.
 
